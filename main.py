@@ -5,7 +5,7 @@ from PIL import Image
 import qrcode, os, sys
 
 SCOPES = ['https://www.googleapis.com/auth/drive']
-SERVICE_ACCOUNT_FILE = 'alpine-biplane-288221-1bd20ac6dad0.json'
+SERVICE_ACCOUNT_FILE = '' # путь к json-файлу с сервисным ключом 
 
 # ID папки на google диске, в которую загружаются файлы
 FOLDER_ID = '1AL2Kyo_5ktP0UCpgJ_6ShUgdlWQHs3Z8'
