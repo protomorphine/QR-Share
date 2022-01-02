@@ -8,7 +8,7 @@ SCOPES = ['https://www.googleapis.com/auth/drive']
 SERVICE_ACCOUNT_FILE = '' # путь к json-файлу с сервисным ключом 
 
 # ID папки на google диске, в которую загружаются файлы
-FOLDER_ID = '1AL2Kyo_5ktP0UCpgJ_6ShUgdlWQHs3Z8'
+FOLDER_ID = ''
 
 # авторизация через сервисный аккаунт
 credentials = service_account.Credentials.from_service_account_file(
