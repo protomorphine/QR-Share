@@ -18,10 +18,10 @@ window.configure(background='white')
 # область действия OAuth 2.0 для Google Drive API
 SCOPES = ['https://www.googleapis.com/auth/drive']
 
-SERVICE_ACCOUNT_FILE = 'alpine-biplane-288221-1bd20ac6dad0.json'
+SERVICE_ACCOUNT_FILE = ''
 
 # ID папки на google диске, в которую загружаются файлы
-FOLDER_ID = '1AL2Kyo_5ktP0UCpgJ_6ShUgdlWQHs3Z8'
+FOLDER_ID = ''
 
 # QR-код с ссылкой на Github
 START_IMG = ImageTk.PhotoImage(qrcode.make('https://github.com/protomorphine/QR-Share'))
