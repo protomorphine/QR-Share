@@ -1,5 +1,6 @@
 # QR-Share
-Скрипт, генерирующий QR-код, по которому можно скачать необходимый файл.
+Генерируем QR-код для быстрой загрузки файлов с ПК на телефон.
+![image](https://user-images.githubusercontent.com/6265637/150822994-576d5794-c7d6-4610-b26a-95485c8dc32e.png)
 
 ## Преднастройка
 1. На странице https://console.cloud.google.com/home/dashboard необходимо подключить Google Drive API.
@@ -14,15 +15,17 @@
 Для успешной работы скрипта необхоимо создать новую папку на Google Диске и предоставить доступ к ней для, созданного на шаге 4, сервисного аккаунта.
 
 ## Установка
-`pip install --upgrade google-api-python-client`  
-
-`pip install qrcode`  
-
-`pip install Pillow`
+```
+pip install --upgrade google-api-python-client
+pip install qrcode
+pip install Pillow
+```
 
 В файле `main.py` необхоимо указать свои значения для ID папки на Google Диске и пути к файлу с ключом.
 
 ## Использование
-`main.py path/to/file`
+1. Запустить `main.py`
+2. Нажать кнопку "Выбрать файл"
+3. Выбрать необходимый файл
+4. Дождаться генерации QR-кода
 
-После выполнения будет открыт QR-код, отсканировав который начнется загрузка указанного ранее файла.
