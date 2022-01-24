@@ -1,6 +1,6 @@
 # QR-Share
 Генерируем QR-код для быстрой загрузки файлов с ПК на телефон.
-![image](https://user-images.githubusercontent.com/6265637/150822994-576d5794-c7d6-4610-b26a-95485c8dc32e.png)
+![image](https://user-images.githubusercontent.com/6265637/150826188-ffc689d3-2010-4884-88e3-b4c5d1f27d76.png)
 
 ## Преднастройка
 1. На странице https://console.cloud.google.com/home/dashboard необходимо подключить Google Drive API.
